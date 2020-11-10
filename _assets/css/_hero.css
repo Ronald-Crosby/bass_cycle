@@ -1,0 +1,18 @@
+.section--hero {
+  padding-top: 100px;
+}
+
+@screen xl {
+  .section--hero {
+    min-height: 100vh;
+  }
+}
+
+.hero-text p {
+  margin-top: 2rem;
+}
+
+.hero-illustration {
+  padding-top: 140.0621118012%;
+  height: 0;
+}

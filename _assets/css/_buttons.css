@@ -1,0 +1,65 @@
+.button {
+  font-family: 'Recursive';
+	font-variation-settings: 'MONO' 0.5, 'CASL' 0, 'wght' 400, 'slnt' 0, 'ital' 0;
+  position: relative;
+  transition: color 0.3s, font-variation-settings 1s, letter-spacing 1s;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  width: 120%;
+  height: 400%;
+  transform: translate(-11%, -20%);
+  transform-origin: center;
+  background-color: transparent;
+}
+
+.superhi-courses .button::before {
+  content: '';
+  display: none;
+}
+
+/* BUTTON HOVER STATES */
+
+.button-hoverEffect::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffc7db;
+  transition: width 0.3s;
+}
+
+@screen lg {
+  .button:hover {
+    color: #ffc7db;
+    font-variation-settings: 'MONO' 1, 'CASL' 0, 'wght' 700, 'slnt' 0, 'ital' 0;
+    letter-spacing: -0.5px;
+  }
+  
+  .button-hoverEffect:hover::after {
+    width: 0;
+  }
+}
+
+/* BUTTON INVERT HOVER STATES */
+
+.button--invert::after {
+  width: 0;
+}
+
+@screen lg {
+  .button--invert:hover::after {
+    width: 80%;
+  }
+}
+
+@screen md {
+  .button--invert:hover::after {
+    width: 80%;
+  }
+}
