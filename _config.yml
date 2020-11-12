@@ -33,17 +33,11 @@ plugins:
   - jekyll-postcss
 
 collections:
-  sections:
+  mixes:
     output: false
-  projects:
-    output: true
-  abouts:
+  radio_shows:
     output: false
-  superhi_sites:
-    output: false
-  superhi_courses:
-    output: false
-
+  
 collections_dir: content
 
 defaults:

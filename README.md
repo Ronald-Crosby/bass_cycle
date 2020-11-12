@@ -1,8 +1,6 @@
-# Welcome to ollyrobinson.dev
+# Welcome to Bass Cycle
 
 ### This site uses Jekyll Starter Tailwind as a base, follow the instruction below under 'Get Started' to run the site locally.
-
-
 
 # Jekyll Starter Tailwind
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
