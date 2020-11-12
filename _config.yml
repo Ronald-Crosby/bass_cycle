@@ -31,26 +31,21 @@ github_username: Ronald-Crosby
 plugins:
   - jekyll-feed
   - jekyll-postcss
-
-collections:
-  mixes:
-    output: false
-  radio_shows:
-    output: false
   
 collections_dir: content
 
 defaults:
   - scope:
-      path: ''
+      path: 'index.html'
+      type: 'pages'
+    values:
+      layout: 'homepage_layout'
+  - scope:
+      path: 'page'
       type: 'pages'
     values:
       layout: 'default'
-  - scope:
-      path: 'projects'
-      type: 'pages'
-    values:
-      layout: 'project'
+      showInNav: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

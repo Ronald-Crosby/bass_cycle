@@ -1,1 +1,10 @@
-<header></header>
+<header>
+	<ul>
+		{% assign site_pages = site.pages | where: 'showInNav', true | sort: 'order' %}
+		{% for page in site_pages %}
+		<li>
+			<a href="{{ site.baseurl }}{{ page.permalink }}">{{ page.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</header>
