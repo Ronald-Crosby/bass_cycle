@@ -20,8 +20,8 @@ module.exports = {
       brightRed: '#FF1717'
     },
     fontSize: {
-      'sm': '1.6rem',
-      'base': '2rem',
+      'sm': '1.4rem',
+      'base': '1.8rem',
       'medium': '4rem',
       'heading': '6.4rem'
     },
