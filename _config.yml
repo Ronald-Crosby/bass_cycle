@@ -31,8 +31,8 @@ defaults:
     showInNav: true
 email: ollythedeveloper@gmail.com
 description: Olly Robinson's portfolio. Front-end coder and UI Developer
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: olly_robinson
 github_username: Ronald-Crosby
 plugins:
