@@ -1,4 +1,4 @@
-<ul class="flex">
+<ul class="flex pb-1">
 	{% assign site_pages = site.pages | where: 'showInNav', true | sort: 'order' %}
 	{% for page in site_pages %}
 	<li class="mr-4 font-bold">

@@ -1,10 +1,13 @@
-<header class="flex justify-between items-center">
+<header class="flex justify-between items-center py-4">
 	<div class="flex items-center">
-		<a href="{{ site.baseurl }}/">
+		<a href="{{ site.baseurl }}/" class="mr-5">
 			<p class="font-basscycle text-medium leading-none">Bass<br>Cycle</p>
-			<p></p>
 		</a>
 		{% include _nav.html %}
 	</div>
-	<div class="">Smiley</div>
+	<div class="w-9">
+		<div class="aspect-ratio-box" style="padding-bottom: 100%;">
+			<img class="img bg-black" src="{{ site.baseurl }}/assets/img/acid-smiley.svg"/>
+		</div>
+	</div>
 </header>
