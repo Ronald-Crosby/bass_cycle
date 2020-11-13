@@ -1,7 +1,7 @@
 ---
-permalink: /mixes
-order: 3
 title: Mix series
+permalink: "/mixes"
+order: 3
 ---
 
 <h1>Mix series</h1>
