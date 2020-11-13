@@ -5,6 +5,7 @@ import { dest, series, src, task, watch } from "gulp";
 import postcss from "gulp-postcss";
 import purgecss from "@fullhuman/postcss-purgecss";
 import atimport from "postcss-import";
+import postcssNesting from 'postcss-nesting';
 import tailwindcss from "tailwindcss";
 import concat from "gulp-concat";
 import terser from "gulp-terser";
@@ -52,6 +53,7 @@ task("processStyles", () => {
     .pipe(
       postcss([
         atimport(),
+        postcssNesting(),
         tailwindcss(TAILWIND_CONFIG),
         ...(!isDevelopmentBuild
           ? [

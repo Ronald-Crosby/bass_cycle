@@ -44,3 +44,7 @@ h1 {
 	font-family: 'Bass Cycle';
 	@apply text-heading;
 }
+
+.font-basscycle {
+	font-family: 'Bass Cycle';
+}

@@ -3,11 +3,13 @@
 {% include head.html %}
 
 <body class="antialiased bg-black">
-  {% include header.html %}
-  <main class="">
-    {{ content }}
-  </main>
-  {% include footer.html %}
+  <div class="max-w-screen-lg mx-auto">
+    {% include header.html %}
+    <main class="">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
 </body>
 
 </html>

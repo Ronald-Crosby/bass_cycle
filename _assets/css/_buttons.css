@@ -1,0 +1,15 @@
+.button {
+	@apply relative;
+	@apply pb-1;
+
+	&::after {
+		content: '';
+		@apply w-full;
+		height: 2px;
+		@apply bg-white;
+		@apply absolute;
+		@apply bottom-0;
+		@apply left-0;
+		@apply right-0;
+	}
+}

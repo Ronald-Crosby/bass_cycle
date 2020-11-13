@@ -1,0 +1,8 @@
+<ul class="flex">
+	{% assign site_pages = site.pages | where: 'showInNav', true | sort: 'order' %}
+	{% for page in site_pages %}
+	<li class="mr-4 font-bold">
+		<a href="{{ site.baseurl }}{{ page.permalink }}" class="button">{{ page.title }}</a>
+	</li>
+	{% endfor %}
+</ul>
