@@ -34,6 +34,11 @@ plugins:
   
 collections_dir: content
 
+collections:
+  - mixes
+  - radio_shows
+  - parties
+
 defaults:
   - scope:
       path: 'index.html'
