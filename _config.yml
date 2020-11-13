@@ -1,5 +1,5 @@
 ---
-title: Olly Robinson
+title: Bass Cycle
 timezone: UTC
 collections:
   mixes:
@@ -30,10 +30,9 @@ defaults:
     layout: default
     showInNav: true
 email: ollythedeveloper@gmail.com
-description: Olly Robinson's portfolio. Front-end coder and UI Developer
+description: Bass Cycle | London-based party crew
 baseurl: 
 url: 
-twitter_username: olly_robinson
 github_username: Ronald-Crosby
 plugins:
 - jekyll-feed
