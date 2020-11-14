@@ -32,6 +32,7 @@ fields:
   description: Copy the code from mixcloud in here
 pages:
 - _radio_shows/april_2020.md
+- _radio_shows/august_2020.md
 - _radio_shows/february_2020.md
 - _radio_shows/july_2020.md
 - _radio_shows/june_2020.md
