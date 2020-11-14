@@ -40,8 +40,8 @@ build:
   - development=development
   - production=production
   preview_output_directory: _site
-  install_dependencies_command: npm install
+  install_dependencies_command: bundle install --path vendor/bundle && npm install
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: NODE_ENV=development gulp serve
+  instant_preview_command: npm install
