@@ -25,13 +25,12 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
 - type: directory
   path: _uploads
   label: Uploads
   create: all
   match: "**/*"
-upload_dir: uploads
+upload_dir: _assets/img
 public_path: "/assets/img"
 front_matter_path: ''
 use_front_matter_path: false
@@ -41,8 +40,8 @@ build:
   - development=development
   - production=production
   preview_output_directory: _site
-  install_dependencies_command: bundle install
+  install_dependencies_command: bundle install --path vendor/bundle && npm install
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm start
+  instant_preview_command: npm install
