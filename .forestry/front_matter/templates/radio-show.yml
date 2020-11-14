@@ -1,4 +1,22 @@
 ---
 label: Radio Show
 hide_body: false
-fields: []
+fields:
+- name: show_date
+  type: text
+  config:
+    required: false
+    min: 6
+    max: 25
+  label: Show date
+  description: e.g. October 2020
+- name: mixcloud_widget_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Mixcloud widget code
+  description: Copy the code from mixcloud in here
