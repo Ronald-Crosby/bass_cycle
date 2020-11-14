@@ -1,6 +1,6 @@
 ---
 label: Radio Show
-hide_body: false
+hide_body: true
 fields:
 - name: show_name
   type: text
