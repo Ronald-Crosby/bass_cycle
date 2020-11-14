@@ -2,14 +2,24 @@
 label: Radio Show
 hide_body: false
 fields:
-- name: show_date
+- name: show_name
   type: text
   config:
     required: false
     min: 6
     max: 25
-  label: Show date
+  label: Show name
   description: e.g. October 2020
+- name: show_date
+  type: datetime
+  label: Show date
+  description: Add the show's date so they can be ordered chronologically
+  config:
+    required: false
+    date_format: MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: MM/YYYY
 - name: mixcloud_widget_code
   type: textarea
   default: ''
