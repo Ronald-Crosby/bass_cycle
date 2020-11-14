@@ -1,4 +1,22 @@
 ---
 label: Mixes
 hide_body: true
-fields: []
+fields:
+- name: test_block_01
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: Test Block 01
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut convallis
+    arcu. Maecenas maximus rhoncus metus, non condimentum nibh eleifend sit amet.
+    Sed fermentum, eros at fringilla facilisis, odio urna accumsan dui, sed vestibulum
+    nunc justo vitae lectus. Quisque rutrum aliquam diam in tristique. Pellentesque
+    nulla elit, tincidunt non libero quis, efficitur imperdiet augue. Curabitur venenatis
+    interdum mauris ut semper. Etiam nulla erat, rhoncus sed erat non, condimentum
+    convallis sapien. Morbi auctor, magna non consectetur tincidunt, magna turpis
+    tempus purus, non egestas augue justo at velit. Duis elementum lectus vel eros
+    consectetur, sed consequat urna eleifend. Donec leo lectus, commodo eu interdum
+    vitae, faucibus quis purus. Pellentesque vehicula diam ac eros lobortis, eget
+    ultrices elit malesuada.
