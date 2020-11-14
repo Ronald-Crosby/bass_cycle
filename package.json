@@ -1,7 +1,7 @@
 {
-  "name": "olly-robinson",
-  "version": "6.0.0",
-  "description": "Olly Robinson's portfolio. Front-end coder and UI Developer",
+  "name": "bass_cycle",
+  "version": "1.0",
+  "description": "Bass Cycle - London-based party crew",
   "main": "gulpfile.babel.js",
   "type": "module",
   "devDependencies": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ronald-Crosby/portfolio_jekyll_2"
+    "url": "https://github.com/Ronald-Crosby/bass_cycle"
   },
   "publishConfig": {
     "access": "public"
