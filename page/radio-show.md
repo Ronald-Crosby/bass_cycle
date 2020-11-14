@@ -1,5 +1,5 @@
 ---
-title: Radio show
+title: Radio shows
 permalink: "/radio"
 order: "2"
 
