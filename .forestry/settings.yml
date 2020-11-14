@@ -40,7 +40,7 @@ build:
   - development=development
   - production=production
   preview_output_directory: _site
-  install_dependencies_command: bundle install
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
