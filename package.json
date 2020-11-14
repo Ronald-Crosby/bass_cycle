@@ -1,6 +1,6 @@
 {
   "name": "bass_cycle",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Bass Cycle - London-based party crew",
   "main": "gulpfile.babel.js",
   "type": "module",
