@@ -1,13 +1,14 @@
 ---
 label: Homepage
 hide_body: true
+display_field: hero_paragraph
 fields:
 - name: hero_paragraph
   type: textarea
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: Hero paragraph
