@@ -30,13 +30,3 @@ fields:
       format: html-blocks
   label: Mixcloud widget code
   description: Copy the code from mixcloud in here
-pages:
-- _radio_shows/april_2020.md
-- _radio_shows/august_2020.md
-- _radio_shows/february_2020.md
-- _radio_shows/july_2020.md
-- _radio_shows/june_2020.md
-- _radio_shows/march_2020.md
-- _radio_shows/may_2020.md
-- _radio_shows/october_2020.md
-- _radio_shows/september_2020.md
