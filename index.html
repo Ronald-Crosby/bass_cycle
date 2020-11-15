@@ -1,6 +1,13 @@
 ---
 hero_paragraph: "London-based party crew  \nHOHP, Bakerlite & TASL  \nMonthly residents
   on Music Box Radio UK  \nCurators of the BASS CYCLE SESSIONS mix series"
-
 ---
-{% include _hero.html %}
+<section>
+  <a href="{{ site.baseurl }}/">
+    <h1>Bass Cycle</h1>
+  </a>
+
+  <p>{{ page.hero_paragraph | markdownify }}</p>
+
+  {% include _nav.html %}
+</section>
