@@ -11,5 +11,10 @@ fields:
     schema:
       format: markdown
   label: Hero paragraph
+- name: past_parties_gallery
+  type: image_gallery
+  config: {}
+  label: Past Parties Gallery
+  description: Images and artwork from previous parties
 pages:
 - index.html
