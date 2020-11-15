@@ -11,3 +11,5 @@ fields:
     schema:
       format: markdown
   label: Hero paragraph
+pages:
+- index.html
