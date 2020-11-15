@@ -1,4 +1,13 @@
 ---
 label: Radio shows index
 hide_body: true
-fields: []
+fields:
+- name: radio_shows_index
+  type: blocks
+  label: Radio shows index
+  template_types:
+  - radio-show
+  config:
+    min: 
+    max: 
+  description: All the radio shows
