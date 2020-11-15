@@ -8,15 +8,11 @@ order: "2"
 <div class="container">
 	<div class="row">
 		<div class="col w-2/3">
-			<!--{% assign shows = site.radio_shows | sort: 'show_date' %}
-			{% for show in site.radio_shows %}
-				<p>{{ show.show_name }}</p>
-				<p>{{ show.mixcloud_widget_code }}</p>
-			{% endfor %}-->
-			{% assign shows = site.radio_shows | sort: 'show_date' %}
+			{% assign shows = site.radio_shows | sort: 'show_date' | reverse %}
 			{% for show in shows %}
 				<p>Name: {{ show.show_name }}</p>
 				<p>Date: {{ show.show_date }}</p>
+				{{ show.content }}
 			{% endfor %}
 		</div>
 	</div>

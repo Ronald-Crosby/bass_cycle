@@ -4,7 +4,7 @@ permalink: "/mixes"
 order: 3
 ---
 
-<h1>Mix series</h1>
+<h1>{{ page.title }}</h1>
 
 <div class="container">
 	<div class="row">
