@@ -6,8 +6,8 @@ past_parties_gallery:
 - "/assets/img/123718174_2846265282272377_6597285907948287599_n.jpg"
 - "/assets/img/123783319_1000245037119162_877474102714638726_n.jpg"
 - "/assets/img/123506749_3650350558342026_1032402422433699603_n.jpg"
-
 ---
+
 <section>
   <a href="{{ site.baseurl }}/">
     <h1>Bass Cycle</h1>
@@ -16,4 +16,17 @@ past_parties_gallery:
   <p>{{ page.hero_paragraph | markdownify }}</p>
 
   {% include _nav.html %}
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col w-2/3">
+        {% assign urls = page.past_parties_gallery %}
+        {% for url in urls %}
+          <img src="{{ url }}"/>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </section>
