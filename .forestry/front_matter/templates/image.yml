@@ -6,3 +6,5 @@ fields:
   type: image_gallery
   config: {}
   label: Image
+pages:
+- _uploads/image_gallery.md
