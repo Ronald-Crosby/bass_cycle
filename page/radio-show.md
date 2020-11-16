@@ -9,16 +9,16 @@ description: |-
 
 ---
 
-    <div class="container">
-    <div class="row">
+<div class="container">
+  <div class="row">
     <div class="col w-2/3">
-    <h1>{{ page.title }}</h1>
-    {% assign shows = site.radio_shows | sort: 'show_date' | reverse %}
-    {% for show in shows %}
-    <p>Name: {{ show.show_name }}</p>
-    <p>Date: {{ show.show_date }}</p>
-    {{ show.content }}
-    {% endfor %}
+			<h1>{{ page.title }}</h1>
+			<p>{{ page.description }}</p>
+    	{% assign shows = site.radio_shows | sort: 'show_date' | reverse %}
+    	{% for show in shows %}
+    		<p>{{ show.show_name }}</p>
+    		{{ show.content }}
+    	{% endfor %}
     </div>
-    </div>
-    </div>
+  </div>
+</div>
