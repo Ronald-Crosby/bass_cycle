@@ -12,9 +12,12 @@ fields:
       format: markdown
   label: Hero paragraph
 - name: past_parties_gallery
-  type: image_gallery
-  config: {}
+  type: blocks
   label: Past Parties Gallery
-  description: Images and artwork from previous parties
+  template_types:
+  - past-parties-gallery
+  config:
+    min: 
+    max: 
 pages:
 - index.html
