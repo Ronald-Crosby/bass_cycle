@@ -1,0 +1,21 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col w-full">
+        <div class="mb-4">
+          <h2 class="mb-3">Parties</h2>
+          <p>Returning in 2021</p>
+        </div>
+        <h3 class="mb-3">Past parties</h3>
+        <div class="flex flex-wrap">
+          {% assign urls = page.past_parties_gallery %}
+          {% for url in urls %}
+          <div style="height: 250px;" class="mr-2 mb-2">
+            <img src="{{ url }}" class="object-cover h-full"/>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

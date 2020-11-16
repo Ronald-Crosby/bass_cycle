@@ -1,6 +1,7 @@
 .button {
 	@apply relative;
 	@apply pb-1;
+	@apply font-bold;
 
 	&::after {
 		content: '';

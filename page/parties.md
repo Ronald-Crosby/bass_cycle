@@ -4,4 +4,4 @@ permalink: "/parties"
 order: 1
 ---
 
-<h1>Parties</h1>
+{% include _parties.html %}

@@ -9,31 +9,34 @@ past_parties_gallery:
 - "/assets/img/123506749_3650350558342026_1032402422433699603_n.jpg"
 - "/assets/img/bass-cycle-6.jpg"
 - "/assets/img/bass-cycle-5.jpg"
-
 ---
+
+<!-- Hero -->
 <section>
   <a href="{{ site.baseurl }}/">
     <h1>Bass Cycle</h1>
   </a>
-
   <p>{{ page.hero_paragraph | markdownify }}</p>
-
   {% include _nav.html %}
 </section>
 
+<!-- Mixes -->
 <section>
   <div class="container">
     <div class="row">
-      <div class="col w-full">
-        <div class="flex flex-wrap">
-          {% assign urls = page.past_parties_gallery %}
-          {% for url in urls %}
-          <div style="height: 200px;">
-            <img src="{{ url }}" class="object-cover h-full"/>
+      <div class="col w-2/3">
+        <h2 class="mb-3">Mixes</h2>
+        {% for mix in site.mixes limit:2 %}
+          <div class="mb-3">
+            <p class="mb-1">{{ mix.title }}: <span class="font-bold">{{ mix.guest }}</span></p>
+            <p>{{ mix.content | markdownify }}</p>
           </div>
-          {% endfor %}
-        </div>
+        {% endfor %}
+        <a href="{{ site.baseurl }}/mixes" class="button">All mixes</a>
       </div>
     </div>
   </div>
 </section>
+
+<!-- Parties -->
+{% include _parties.html %}

@@ -40,7 +40,7 @@ body {
 	@apply font-normal;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Bass Cycle';
 	@apply text-heading;
 }
