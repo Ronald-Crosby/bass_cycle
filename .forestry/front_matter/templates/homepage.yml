@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: Title
-  description: enter Bass Cycle for the homepage title
+  description: Used by forestry - leave as Homepage
 - name: hero_paragraph
   type: textarea
   default: ''
