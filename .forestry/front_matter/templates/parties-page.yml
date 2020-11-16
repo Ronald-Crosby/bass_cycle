@@ -1,0 +1,13 @@
+---
+label: Parties page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: number
+  name: order
+  label: order
