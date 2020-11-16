@@ -1,0 +1,13 @@
+.header-border {
+	@apply relative;
+
+	&::after {
+		content: '';
+		@apply absolute;
+		@apply w-screen;
+		@apply bg-white;
+		height: 2px;
+		left: calc((100vw - 100%) / 2 * -1);
+		bottom: 0;
+	}
+}

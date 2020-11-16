@@ -4,4 +4,7 @@ permalink: "/contact"
 order: 4
 ---
 
-<h1>Contact</h1>
+<section class="mt-6">
+	<h1>Contact</h1>
+</section>
+

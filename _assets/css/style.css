@@ -3,6 +3,7 @@
 @import './_typography_variable.css';
 @import './_buttons.css';
 @import './_images.css';
+@import './_header.css';
 
 html {
   scroll-behavior: smooth;
