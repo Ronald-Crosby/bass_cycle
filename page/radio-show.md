@@ -2,18 +2,23 @@
 title: Radio shows
 permalink: "/radio"
 order: "2"
----
-<h1>{{ page.title }}</h1>
+description: |-
+  On the 3rd Monday of every month we’re in the mix for Music Box Radio, a community radio station based in London.
 
-<div class="container">
-	<div class="row">
-		<div class="col w-2/3">
-			{% assign shows = site.radio_shows | sort: 'show_date' | reverse %}
-			{% for show in shows %}
-				<p>Name: {{ show.show_name }}</p>
-				<p>Date: {{ show.show_date }}</p>
-				{{ show.content }}
-			{% endfor %}
-		</div>
-	</div>
-</div>
+  Listen to all the shows here:
+
+---
+
+    <div class="container">
+    <div class="row">
+    <div class="col w-2/3">
+    <h1>{{ page.title }}</h1>
+    {% assign shows = site.radio_shows | sort: 'show_date' | reverse %}
+    {% for show in shows %}
+    <p>Name: {{ show.show_name }}</p>
+    <p>Date: {{ show.show_date }}</p>
+    {{ show.content }}
+    {% endfor %}
+    </div>
+    </div>
+    </div>

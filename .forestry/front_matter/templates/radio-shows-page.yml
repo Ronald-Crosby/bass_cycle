@@ -20,3 +20,5 @@ fields:
 - type: text
   name: order
   label: order
+pages:
+- page/radio-show.md
