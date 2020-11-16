@@ -10,6 +10,6 @@ images:
 - "/assets/img/123506749_3650350558342026_1032402422433699603_n.jpg"
 - "/assets/img/bass-cycle-6.jpg"
 - "/assets/img/bass-cycle-5.jpg"
-
 ---
+
 {% include _parties.html %}
