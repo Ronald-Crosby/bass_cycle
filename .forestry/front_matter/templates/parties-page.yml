@@ -11,3 +11,11 @@ fields:
 - type: number
   name: order
   label: order
+- name: past_parties_gallery
+  type: blocks
+  label: Past Parties Gallery
+  template_types:
+  - past-parties-gallery
+  config:
+    min: 
+    max: 
