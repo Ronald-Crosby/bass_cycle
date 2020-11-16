@@ -7,12 +7,13 @@ order: 3
 <section class="mt-6">
 	<div class="container">
 		<div class="row">
-			<div class="col w-2/3">
-				<h1>{{ page.title }}</h1>
+			<div class="col w-2/3 pb-6">
+				<h1 class="mb-3">{{ page.title }}</h1>
 				{% for mix in site.mixes %}
-					<p>{{ mix.title }}</p>
-					<p>{{ mix.guest }}</p>
-					<p>{{ mix.content | markdownify }}</p>
+					<div class="mb-4">
+						<p class="mb-2">{{ mix.title }}: <span class="font-bold">{{ mix.guest }}</span></p>
+						{{ mix.content | markdownify }}
+					</div>
 				{% endfor %}
 			</div>
 		</div>
