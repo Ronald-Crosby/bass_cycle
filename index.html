@@ -1,7 +1,10 @@
 ---
 title: Homepage
-hero_paragraph: "London-based party crew  \nHOHP, Bakerlite & TASL  \nMonthly residents
-  on Music Box Radio UK  \nCurators of the BASS CYCLE SESSIONS mix series"
+hero_paragraph: |- 
+  London-based party crew 
+  HOHP, Bakerlite & TASL 
+  Monthly residents on Music Box Radio UK 
+  Curators of the BASS CYCLE SESSIONS mix series
 images:
 - "/assets/img/123543979_448284876154080_4656174462763591070_n.jpg"
 - "/assets/img/123718174_2846265282272377_6597285907948287599_n.jpg"
@@ -13,12 +16,14 @@ images:
 ---
 
 <!-- Hero -->
-<section>
-  <a href="{{ site.baseurl }}/">
-    <h1>Bass Cycle</h1>
-  </a>
-  <p>{{ page.hero_paragraph | markdownify }}</p>
-  {% include _nav.html %}
+<section class="h-screen flex justify-center items-center">
+  <div class="">
+    <a href="{{ site.baseurl }}/" class="block">
+      <h1 class="mb-2">Bass Cycle</h1>
+    </a>
+    <p class="mb-2">{{ page.hero_paragraph | strip_html | newline_to_br }}</p>
+    {% include _nav.html %}
+  </div>
 </section>
 
 <!-- Mixes -->
