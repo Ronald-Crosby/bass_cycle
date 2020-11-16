@@ -2,6 +2,12 @@
 label: Homepage
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Used by forestry - leave as Homepage
 - name: hero_paragraph
   type: textarea
   default: ''
@@ -12,9 +18,9 @@ fields:
       format: markdown
   label: Hero paragraph
 - name: past_parties_gallery
-  type: image_gallery
+  type: include
   config: {}
+  template: past-parties-gallery
   label: Past Parties Gallery
-  description: Images and artwork from previous parties
 pages:
 - index.html

@@ -1,0 +1,20 @@
+---
+label: Parties page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: number
+  name: order
+  label: order
+- name: past_parties_gallery
+  type: include
+  config: {}
+  template: past-parties-gallery
+  label: Past Parties Gallery
+pages:
+- page/parties.md
