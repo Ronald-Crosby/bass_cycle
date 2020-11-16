@@ -21,11 +21,15 @@ past_parties_gallery:
 <section>
   <div class="container">
     <div class="row">
-      <div class="col w-2/3">
-        {% assign urls = page.past_parties_gallery %}
-        {% for url in urls %}
-          <img src="{{ url }}"/>
-        {% endfor %}
+      <div class="col w-full">
+        <div class="flex flex-wrap">
+          {% assign urls = page.past_parties_gallery %}
+          {% for url in urls %}
+          <div style="height: 200px;">
+            <img src="{{ url }}" class="object-cover h-full"/>
+          </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
