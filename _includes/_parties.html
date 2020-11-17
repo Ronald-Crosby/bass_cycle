@@ -1,19 +1,21 @@
-<section class="">
+<section class="py-3 md:py-5">
   <div class="container mx-auto">
     <div class="row">
       <div class="col w-full">
-        <div class="mb-4">
+        <div class="mb-8">
           <h2 class="mb-3">Parties</h2>
-          <p>Returning in 2021</p>
+          <p class="font-northstar">Returning in 2021</p>
         </div>
-        <h3 class="mb-3">Past parties</h3>
-        <div class="flex flex-wrap">
-          {% assign urls = page.images %}
-          {% for url in urls %}
-          <div class="md:mr-2 mb-2 parties-gallery-image">
-            <img src="{{ url }}" class="object-cover md:h-full"/>
+        <div class="pt-5">
+          <h3 class="mb-3">Past parties</h3>
+          <div class="flex flex-wrap">
+            {% assign urls = page.images %}
+            {% for url in urls %}
+            <div class="md:mr-2 mb-2 parties-gallery-image">
+              <img src="{{ url }}" class="object-cover md:h-full"/>
+            </div>
+            {% endfor %}
           </div>
-          {% endfor %}
         </div>
       </div>
     </div>

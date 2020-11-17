@@ -18,6 +18,14 @@
 	font-weight: 700;
 }
 
+@font-face {
+	font-family: 'Northstar';
+	src: url('../fonts/northstar/northstarboldital.woff2') format('woff2'),
+			 url('../fonts/northstar/northstarboldital.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
 html {
 	font-size: 50%;
 }
@@ -48,4 +56,12 @@ h1, h2, h3 {
 
 .font-basscycle {
 	font-family: 'Bass Cycle';
+}
+
+.font-northstar {
+	font-family: 'Northstar';
+	font-weight: 700;
+	font-style: italic;
+	font-size: 6.4rem;
+	@apply leading-none;
 }
