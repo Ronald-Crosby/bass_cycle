@@ -12,6 +12,7 @@
 
 .col {
   flex: none;
+  padding: 0 16px;
 }
 
 @responsive {

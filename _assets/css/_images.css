@@ -12,3 +12,16 @@
 		height: 100%;;
 	}
 }
+
+.parties-gallery-image {
+	width: 100%;
+}
+
+@screen md {
+	.parties-gallery-image {
+		height: 250px;
+		width: auto;
+	}
+}
+
+

@@ -11,3 +11,7 @@
 		bottom: 0;
 	}
 }
+
+.header_nav li + li {
+	@apply ml-4;
+}

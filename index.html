@@ -17,7 +17,7 @@ images:
 
 <!-- Hero -->
 <section class="h-screen flex justify-center items-center border-b-4 border-white">
-  <div class="max-w-screen-lg mx-auto">
+  <div>
     <a href="{{ site.baseurl }}/" class="block">
       <h1 class="mb-2">Bass Cycle</h1>
     </a>
@@ -29,9 +29,9 @@ images:
 <!-- Mixes -->
 <div class="bg-brightRed h-screen flex items-center border-b-4 border-white">
   <section class="w-full">
-    <div class="container max-w-screen-lg">
+    <div class="container">
       <div class="row">
-        <div class="col w-2/3 pb-1">
+        <div class="col w-full lg:w-2/3 pb-1">
           <h2 class="mb-3">Mixes</h2>
           {% for mix in site.mixes limit:2 %}
             <div class="mb-3">
@@ -47,6 +47,6 @@ images:
 </div>
 
 <!-- Parties -->
-<div class="mt-8">
+<div class="mt-8 w-full">
   {% include _parties.html %}
 </div>

@@ -1,7 +1,7 @@
-<ul class="flex pb-1">
+<ul class="flex justify-between pb-1 header_nav">
 	{% assign site_pages = site.pages | where: 'showInNav', true | sort: 'order' %}
 	{% for page in site_pages %}
-	<li class="mr-5">
+	<li>
 		<a href="{{ site.baseurl }}{{ page.permalink }}" class="button">{{ page.title }}</a>
 	</li>
 	{% endfor %}

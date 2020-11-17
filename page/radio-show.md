@@ -12,7 +12,7 @@ description: |-
 <section class="mt-6">
 	<div class="container">
 		<div class="row">
-			<div class="col w-2/3">
+			<div class="col w-full lg:w-2/3">
 				<h1 class="mb-1">{{ page.title }}</h1>
 				<p>{{ page.description }}</p>
 				<div class="mt-5">
