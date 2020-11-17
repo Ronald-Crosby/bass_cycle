@@ -12,6 +12,8 @@
 	}
 }
 
-.header_nav li + li {
-	@apply ml-4;
+@screen md {
+	.header_nav li + li {
+		@apply ml-4;
+	}
 }
