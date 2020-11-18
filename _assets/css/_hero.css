@@ -1,0 +1,19 @@
+@keyframes moveDown {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(1000vw)
+	}
+}
+
+.repeating-text {
+	animation: moveDown 200s infinite;
+}
+
+.repeating-text span {
+	@apply font-basscycle;
+	@apply leading-none;
+	font-size: calc(3vw + 24px);
+	opacity: 0.6;
+}

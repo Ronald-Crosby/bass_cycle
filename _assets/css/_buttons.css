@@ -14,3 +14,15 @@
 		@apply right-0;
 	}
 }
+
+a, a svg {
+	transition: opacity 0.1s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+a:hover svg {
+	opacity: 0.8;
+}
