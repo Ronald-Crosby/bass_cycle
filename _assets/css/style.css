@@ -4,6 +4,7 @@
 @import './_buttons.css';
 @import './_images.css';
 @import './_header.css';
+@import './_forms.css';
 
 html {
   scroll-behavior: smooth;
