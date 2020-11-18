@@ -17,3 +17,7 @@
 		@apply ml-4;
 	}
 }
+
+footer .social-icons li + li {
+	@apply ml-2;
+}
