@@ -8,7 +8,7 @@
 }
 
 .repeating-text {
-	animation: moveDown 200s infinite;
+	animation: moveDown 700s infinite linear;
 }
 
 .repeating-text span {

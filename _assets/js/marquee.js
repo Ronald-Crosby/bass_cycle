@@ -5,12 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	textSpan.appendChild(text)
 
-	const marquee = new Array(50).fill(textSpan)
+	const marquee = new Array(5000).fill(textSpan)
 
-	const docFrag = document.createDocumentFragment();
-	for (var i = 0; i < marquee.length; i++) {
-		docFrag.appendChild(marquee[i]);
-	}
-
-	marqueeWrapper.appendChild(docFrag);
+	marquee.forEach(span => {
+		marqueeWrapper.append(span.cloneNode(true))
+	})
 })
