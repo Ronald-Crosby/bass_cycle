@@ -16,10 +16,11 @@ images:
 ---
 
 <!-- Hero -->
-<section class="h-screen flex items-center border-b-4 border-white overflow-hidden">
-  <div class="flex flex-col repeating-text" id="repeating-text">
+<section class="h-screen flex items-end border-b-4 border-white overflow-hidden">
+  <div class="flex flex-col repeating-text js-vertical-marquee">
+    <span>basscycle</span>
   </div>
-  <div class="mx-auto lg:pl-8 lg:ml-10">
+  <div class="mx-auto lg:pl-8 lg:ml-10" style="align-self: center;">
     <a href="{{ site.baseurl }}/" class="block">
       <h1 class="mb-2">Bass Cycle</h1>
     </a>
@@ -29,11 +30,14 @@ images:
 </section>
 
 <!-- Mixes -->
-<div class="bg-brightRed min-h-screen flex items-center border-b-4 border-white py-2">
-  <section class="w-full">
+<div class="bg-brightRed overflow-hidden flex items-center border-b-4 border-white">
+  <section class="w-full relative flex items-center h-screen">
+    <div class="flex flex-col repeating-text js-vertical-marquee absolute right-0 bottom-0">
+      <span>basscycle</span>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col w-full lg:w-2/3 pb-1">
+        <div class="col w-full md:w-2/3 lg:w-1/2 pb-1 relative">
           <h2 class="mb-3">Mixes</h2>
           {% for mix in site.mixes limit:2 %}
             <div class="mb-3">

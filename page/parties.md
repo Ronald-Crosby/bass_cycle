@@ -12,6 +12,6 @@ images:
 - "/assets/img/bass-cycle-5.jpg"
 ---
 
-<div class="mt-6">
+<div class="mt-1">
 	{% include _parties.html %}
 </div>

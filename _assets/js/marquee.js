@@ -1,13 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const marqueeWrapper = document.getElementById('repeating-text')
-	const textSpan = document.createElement('span')
-	const text = document.createTextNode('basscycle')
 
-	textSpan.appendChild(text)
+	function createVerticalMarquee(parentEl, textContent) {
+		const textSpan = document.createElement('span')
+		textSpan.appendChild(textContent)
 
-	const marquee = new Array(5000).fill(textSpan)
+		const marquee = new Array(1000).fill(textSpan)
+		marquee.forEach(span => {
+			parentEl.append(span.cloneNode(true))
+		})
+	}
 
-	marquee.forEach(span => {
-		marqueeWrapper.append(span.cloneNode(true))
+	const marquees = document.querySelectorAll('.js-vertical-marquee')
+	marquees.forEach(marquee => {
+		const textContent = marquee.firstElementChild
+		createVerticalMarquee(marquee, textContent)
 	})
 })
+

@@ -15,5 +15,5 @@
 	@apply font-basscycle;
 	@apply leading-none;
 	font-size: calc(3vw + 24px);
-	opacity: 0.6;
+	opacity: 0.8;
 }
