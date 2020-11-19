@@ -7,6 +7,15 @@
 	}
 }
 
+@keyframes rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
 .repeating-text {
 	animation: moveDown 700s infinite linear;
 }
@@ -16,4 +25,8 @@
 	@apply leading-none;
 	font-size: calc(3vw + 24px);
 	opacity: 0.8;
+}
+
+.rotate-face img {
+	animation: rotate 16s infinite linear;
 }

@@ -16,7 +16,7 @@ images:
 ---
 
 <!-- Hero -->
-<section class="h-screen flex items-end border-b-4 border-white overflow-hidden">
+<section class="h-screen flex items-end border-b-4 border-white overflow-hidden relative">
   <div class="flex flex-col repeating-text js-vertical-marquee">
     <span>basscycle</span>
   </div>
@@ -26,6 +26,11 @@ images:
     </a>
     <p class="mb-2">{{ page.hero_paragraph | strip_html | newline_to_br }}</p>
     {% include _nav.html %}
+  </div>
+  <div class="absolute top-0 right-0 mr-6 mt-6 w-8">
+    <div class="rotate-face">
+      {% include _smiley.html %}
+    </div>
   </div>
 </section>
 
