@@ -7,6 +7,24 @@
 	}
 }
 
+@keyframes moveLeft {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-1000vw)
+	}
+}
+
+@keyframes moveRight {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(1000vw)
+	}
+}
+
 @keyframes rotate {
 	0% {
 		transform: rotate(0);
@@ -40,4 +58,16 @@
 
 .rotate-face img {
 	animation: rotate 16s infinite linear;
+}
+
+.horizontal-marquee-1 {
+	animation: moveLeft 400s infinite linear;
+}
+
+.horizontal-marquee-2 {
+	animation: moveRight 200s infinite linear;
+}
+
+.horizontal-marquee-3 {
+	animation: moveLeft 350s infinite linear;
 }
