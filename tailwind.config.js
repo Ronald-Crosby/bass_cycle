@@ -23,6 +23,7 @@ module.exports = {
       'sm': '1.4rem',
       'base': '1.8rem',
       'medium': '4rem',
+      'hero-title': '6.2rem',
       'heading': '6.4rem'
     },
   },

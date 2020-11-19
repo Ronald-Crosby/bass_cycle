@@ -54,6 +54,10 @@ h1, h2, h3 {
 	@apply leading-none;
 }
 
+.hero-title {
+	@apply text-hero-title;
+}
+
 .font-basscycle {
 	font-family: 'Bass Cycle';
 }

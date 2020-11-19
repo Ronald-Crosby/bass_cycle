@@ -17,17 +17,17 @@ images:
 
 <!-- Hero -->
 <section class="h-screen flex items-end border-b-4 border-white overflow-hidden relative">
-  <div class="flex flex-col repeating-text js-vertical-marquee">
+  <div class="repeating-text js-vertical-marquee">
     <span>basscycle</span>
   </div>
-  <div class="mx-auto lg:pl-8 lg:ml-10" style="align-self: center;">
+  <div class="mx-auto px-2 md:px-0 lg:pl-8 lg:ml-10 absolute md:relative left-0 md:left-auto w-full md:w-auto" style="align-self: center;">
     <a href="{{ site.baseurl }}/" class="block">
-      <h1 class="mb-2">Bass Cycle</h1>
+      <h1 class="mb-2 hero-title">Bass Cycle</h1>
     </a>
     <p class="mb-2">{{ page.hero_paragraph | strip_html | newline_to_br }}</p>
     {% include _nav.html %}
   </div>
-  <div class="absolute top-0 right-0 mr-6 mt-6 w-8">
+  <div class="hidden md:block absolute top-0 right-0 mr-6 mt-6 w-8">
     <div class="rotate-face">
       {% include _smiley.html %}
     </div>
@@ -36,13 +36,13 @@ images:
 
 <!-- Mixes -->
 <div class="bg-brightRed overflow-hidden flex items-center border-b-4 border-white">
-  <section class="w-full relative flex items-center h-screen">
-    <div class="flex flex-col repeating-text js-vertical-marquee absolute right-0 bottom-0">
+  <section class="w-full relative flex items-center pt-7 pb-8">
+    <div class="hidden md:flex flex-col repeating-text js-vertical-marquee absolute right-0 bottom-0">
       <span>basscycle</span>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col w-full md:w-2/3 lg:w-1/2 pb-1 relative">
+        <div class="col w-full md:w-2/3 lg:w-1/2 relative">
           <h2 class="mb-3">Mixes</h2>
           {% for mix in site.mixes limit:2 %}
             <div class="mb-3">
