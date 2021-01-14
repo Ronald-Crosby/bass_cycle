@@ -6,3 +6,4 @@ mixcloud_widget_code: <pre><code>&lt;iframe width="100%" height="60" src="<a hre
   frameborder="0" &gt;&lt;/iframe&gt;</code></pre>
 
 ---
+    <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FMusicBoxRadioUK%2Fbass-cycle-monday-16th-november-2020%2F" frameborder="0" ></iframe>
