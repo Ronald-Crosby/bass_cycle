@@ -30,3 +30,5 @@ fields:
       format: html-blocks
   label: Mixcloud widget code
   description: Copy the code from mixcloud in here
+pages:
+- content/_radio_shows/november_2020.md
